@@ -3,12 +3,17 @@
 A quick way to set up a JAM stack site or app. Uses Netlify, Parcel, and
 Prettier.
 
-⚠️ Warning: Netlify Dev doesn't currently support Parcel. There is an [open pull request](https://github.com/netlify/netlify-dev-plugin/pull/234) to support it. But until the pull request is merged, this template won't work. There is, however, a [workaround](netlify-parcel-workaround.md). ⚠️
+![Netlify, Parcel, and Prettier Logos](netlify-parcel-prettier-logos.png)
+
+⚠️ Warning: Netlify Dev doesn't currently support Parcel. There is an [open pull
+request](https://github.com/netlify/netlify-dev-plugin/pull/234) to support it.
+But until the pull request is merged, this template won't work. There is,
+however, a [workaround](netlify-parcel-workaround.md). ⚠️
 
 ## Getting Started
 
-You can get started using GitHub. Click the green **Use this template** button
-above.
+You can get started by using GitHub. Click the green **Use this template**
+button above.
 
 Give your repository a name and click **Create repository from template**.
 
@@ -51,6 +56,9 @@ environment. This includes features like [serverless lambda
 functions](https://www.netlify.com/docs/functions/), [redirect & rewrite
 rules](https://www.netlify.com/docs/redirects/), and much more.
 
+You can also deploy on Netlify in a few short steps. See the **Deploy** section
+below.
+
 ### Taking advantage of Parcel
 
 You can manage site assets with Parcel. Simply import them in
@@ -58,6 +66,16 @@ You can manage site assets with Parcel. Simply import them in
 modules](https://parceljs.org/javascript.html) or
 [SCSS](https://parceljs.org/scss.html) or [any other asset supported by
 Parcel](https://parceljs.org/assets.html).
+
+
+```javascript
+// After running npm install lodash
+import _ from "lodash";
+
+const randomNumber = _.random(1, 10);
+
+console.log(randomNumber);
+```
 
 ### Taking advantage of Prettier
 
@@ -108,8 +126,8 @@ git push
 Connect your repository to Netlify by going to https://app.netlify.com and
 clicking the **New site from Git** button. Follow instructions on screen.
 
-The site is automatically pulled over, built, and deployed. The site will
-continue to automatically deploy every time you push to GitHub.
+The site is automatically pulled over from GitHub, built, and deployed. The site
+will continue to automatically deploy every time you push to GitHub.
 
 ## License
 
