@@ -40,7 +40,7 @@ npm install
 Start the development server.
 
 ```
-netlify dev
+npm run dev // ⚠️ May not work at the moment. See warning above.
 ```
 
 The site and functions will be built and served at http://localhost:8888
