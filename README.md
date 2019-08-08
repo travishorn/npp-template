@@ -123,11 +123,23 @@ git commit -m "[Short description of changes]"
 git push
 ```
 
-Connect your repository to Netlify by going to https://app.netlify.com and
-clicking the **New site from Git** button. Follow instructions on screen.
+Connect your repository to Netlify.
+
+```
+npx netlify init
+```
+
+Follow the command line prompts and authorize any third-party access to or from
+Netlify and GitHub.
 
 The site is automatically pulled over from GitHub, built, and deployed. The site
 will continue to automatically deploy every time you push to GitHub.
+
+You can open the deployed site from the command line.
+
+```
+npx netlify open:site
+```
 
 ## License
 
