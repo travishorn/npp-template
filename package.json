@@ -1,6 +1,6 @@
 {
   "name": "npp-template",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A quick way to set up a JAM stack site or app. Uses Netlify, Parcel, and Prettier.",
   "private": true,
   "scripts": {
