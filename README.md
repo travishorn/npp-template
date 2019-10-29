@@ -5,11 +5,6 @@ Prettier.
 
 ![Netlify, Parcel, and Prettier Logos](netlify-parcel-prettier-logos.png)
 
-⚠️ Warning: Netlify Dev doesn't currently support Parcel. There is an [open pull
-request](https://github.com/netlify/netlify-dev-plugin/pull/234) to support it.
-But until the pull request is merged, this template won't work. There is,
-however, a [workaround](netlify-parcel-workaround.md). ⚠️
-
 ## Getting Started
 
 You can get started by using GitHub. Click the green **Use this template**
@@ -40,7 +35,7 @@ npm install
 Start the development server.
 
 ```
-npm run dev // ⚠️ May not work at the moment. See warning above.
+npm run dev
 ```
 
 The site and functions will be built and served at http://localhost:8888
